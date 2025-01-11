@@ -1,0 +1,137 @@
+@media (max-width: 1024px) {
+  .navbar-container {
+    display: none;
+  }
+
+  /* Showcase */
+  .showcase-container > h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .showcase-container > p {
+    font-size: 0.875rem;
+    margin-top: 15px;
+  }
+
+  /* About Me */
+  .about-me-content {
+    flex-direction: column;
+  }
+
+  .about-me-content > img {
+    width: 200px;
+    height: 200px;
+    margin-right: 0;
+  }
+
+  .about-me-content > p {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Skills */
+  .skills-content {
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 0;
+    gap: 40px;
+  }
+
+  .skill-item {
+    padding: 30px;
+    gap: 10px;
+  }
+
+  .skill-item > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill-item > span {
+    font-size: 1rem;
+  }
+
+  .skill-item > p {
+    font-size: 0.875rem;
+  }
+
+  /* Projects */
+  .projects-content {
+    margin-top: 40px;
+  }
+
+  .projects-content .project-item:nth-child(2) > .project-item-image,
+  .projects-content .project-item:nth-child(4) > .project-item-image {
+    order: 0;
+    margin-left: 0;
+  }
+
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .project-item-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  .project-text {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .project-text > h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  /* Contact */
+  .contact-form {
+    margin-top: 44px;
+  }
+
+  .form-input {
+    padding: 15px;
+  }
+
+  .form-button {
+    padding: 15px;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .social-items {
+    display: flex;
+    gap: 25px;
+  }
+
+  .social-items a {
+    margin-right: 0;
+  }
+
+  /* Utilities */
+  .section-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-content {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
