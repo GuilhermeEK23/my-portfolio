@@ -63,8 +63,8 @@
     margin-top: 40px;
   }
 
-  .projects-content .project-item:nth-child(2) > .project-item-image,
-  .projects-content .project-item:nth-child(4) > .project-item-image {
+  .projects-content .project-item:nth-child(2) > a,
+  .projects-content .project-item:nth-child(4) > a {
     order: 0;
     margin-left: 0;
   }

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: transparent;
   text-decoration: none;
@@ -30,7 +34,7 @@ body {
   list-style: none;
 }
 
-.navbar-container > ul > li {
+.navbar-container > ul > li > a {
   text-transform: uppercase;
   margin-right: 40px;
   color: white;
@@ -83,6 +87,11 @@ body {
   margin-top: 50px;
 }
 
+.about-me-content a {
+  color: #ad93f1;
+  text-decoration: underline;
+}
+
 .about-me-content > img {
   width: 320px;
   height: 320px;
@@ -97,8 +106,9 @@ body {
 /* Skills */
 .skills-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 108px;
   padding: 10px 120px;
   gap: 50px;
@@ -107,6 +117,7 @@ body {
 .skill-item {
   background-color: #202020;
   padding: 50px;
+  width: 300px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -142,14 +153,19 @@ body {
   margin-bottom: 50px;
 }
 
+.project-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .projects-content .project-item:nth-child(2),
 .projects-content .project-item:nth-child(4) {
   justify-content: flex-end;
   text-align: right;
 }
 
-.projects-content .project-item:nth-child(2) > .project-item-image,
-.projects-content .project-item:nth-child(4) > .project-item-image {
+.projects-content .project-item:nth-child(2) > a,
+.projects-content .project-item:nth-child(4) > a {
   order: 2;
   margin-left: 50px;
 }
@@ -182,6 +198,10 @@ body {
 .project-item-4 {
   background-image: url("./images/project-4.jpg");
   background-position: center;
+}
+
+.project-item-5 {
+  background-image: url("./images/project-5.jpg");
 }
 
 .project-text {
